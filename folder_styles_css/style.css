@@ -6,12 +6,12 @@
 
 /*GLOBAL-START*/
 ::selection {
-background-color: #ba2e1f;
+background-color: #ba2e1f  !important ;
 }
 .container-for-width-all-content{
- width:960px;
- height:100%;
- margin:auto;
+ width:960px  !important ;
+ height:100%  !important ;
+ margin:auto  !important ;
 }
 .global-container-underlining-links{
  text-decoration:none;
