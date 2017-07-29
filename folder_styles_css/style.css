@@ -6,35 +6,35 @@
 
 /*GLOBAL-START*/
 ::selection {
-background-color: #ba2e1f  !important ;
+	background-color:#ba2e1f;
 }
 .container-for-width-all-content{
- width:960px  !important ;
- height:100%  !important ;
- margin:auto  !important ;
+	width:960px;
+	height:100%;
+	margin:auto;
 }
 .global-container-underlining-links{
- text-decoration:none;
+	text-decoration:none;
 }
 .links-colors-in-top-bar-and-top-navigation{
- color:white;
+	color:white;
 }
 .all-news-text-for-intro-content-footer{
- font-family:serif;
- color:666666;
+	font-family:serif;
+	color:666666;
 }
 .service-footer-container-block{
- display:inline-block;
+	display:inline-block;
 }
 .all-read-more-and-other-links-color{
- color:#ba2e1f;
+	color:#ba2e1f;
 }
 .all-read-more-and-other-links-color:hover{
- color:black;
+	color:black;
 }
 .about-us-services-clients-container-content{
- width:33%;
- height:505px;
+	width:33%;
+	height:505px;
  display:inline-block;
  float:left;
  margin-top:50px;
