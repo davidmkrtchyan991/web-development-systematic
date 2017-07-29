@@ -1,0 +1,139 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+.wrapper {
+    margin: 0;
+    border: 1px solid #000;
+}
+.containerCenter {
+    width: 960px;
+    margin: 0 auto;
+    overflow: hidden;
+    border: 1px solid #000;
+}
+/*Top Bar start*/
+.navMenuWrapper {
+    padding: 12px 0;
+}
+.topBar {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+    border: 1px solid #000;
+}
+.navMenu {
+    float: left;
+}
+.navMenu ul li {
+    display: inline-block;
+    list-style-type: none;
+    padding: 0 5px;
+    line-height: 13px;
+    border-right: 1px solid white;
+}
+.navMenu ul li:last-child {
+    border-right: 0;
+}
+.navMenu ul li:first-child {
+    padding-left: 0;
+}
+.navMenu ul li a, .navMenu ul li a:hover, .navMenu ul li a:visited, .navMenu ul li a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.navSearch {
+    float: right;
+    position: relative;
+}
+.navSearchInput {
+    width: 210px;
+    height: 25px;
+    border-radius: 20px;
+    padding: 0 25px 0 10px;
+}
+.navSearchButton {
+    position: absolute;
+    right: 6px;
+    top: 3px;
+    border-radius: 25px;
+    width: 19px;
+    height: 19px;
+    background-color: red;
+    color: white;
+}
+/*Top Bar end*/
+
+/*Header start*/
+.header {
+    height: 135px;
+    background-color: white;
+    padding: 40px 0;
+    border: 1px solid #000;
+}
+.headerWrapper {
+    border: 1px solid #000;
+}
+.headerTitle {
+    float: left;
+}
+.headerTitleName {
+    font-size: 32px;
+    text-transform: uppercase;
+    font-family: Georgia, arial;
+}
+.headerTitleName:first-letter {
+    font-size: 40px;
+}
+.headerTitleAdditional a {
+    font-size: 12px;
+    color: black;
+}
+
+.socialIcons {
+    float: right;
+    padding-top: 30px;
+}
+.socialIconsBorder {
+    height: 33px;
+    width: 33px;
+    border-radius: 35px;
+    background-color: black;
+    margin-left: 10px;
+    float: left;
+    cursor: pointer;
+    color: white;
+    padding: 9px 10px;
+    font-size: 15px;
+}
+.socialIconsBorder:hover {
+    color: white;
+}
+.socialIconsLinkedIn:hover {
+    background-color: #0077b5;
+}
+.socialIconsTwitter:hover {
+    background-color: #4099ff;
+}
+.socialIconsPinterest:hover {
+    background-color: #cb2026;
+}
+.socialIconsGoogle:hover {
+    background-color: #dd4c3b;
+}
+.socialIconsRss:hover {
+    background-color: #f60;
+}
+/*Header end*/
+
+/*Top Navigations start*/
+.topNavigationWrapper {
+    height: 40px;
+    background: #2b2b2b;
+}
+/*Top Navigations end*/
