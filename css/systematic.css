@@ -91,19 +91,22 @@ header {
 	color: #eded23;
 }
 .search {
-	float: right;		
+	float: right;
+	position: relative;
 }
 .search input[type="text"] {
 	width: 210px;
 	height: 25px;
-	padding: 11px 25px 11px 9px;
+	padding: 0 26px 0 10px;
 	border: none;
 	outline: none;
 	border-radius: 13px;
 }
 .search input[type="image"] {	
-	margin-bottom: -5px;
-	margin-left: -25px;
+	position: absolute;
+	z-index: 200;
+	right: 5px;
+	top: 4px;
 	width: 18px;
 	height: 18px;
 }
