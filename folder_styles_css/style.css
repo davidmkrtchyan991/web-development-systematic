@@ -172,17 +172,17 @@
  height:140px;
 }
 /*--PARAGRAPH IN HEADER-START--*/
-.header-logo{
+.header-logo-container{
  float:left;
  margin-top:25px;
 }
-.header-logo>p{
+.header-logo-container>p{
  font-size:40px;
 }
-.header-logo>p:first-letter{
+.header-logo-container>p:first-letter{
  font-size:150%;
 }
-.header-logo>h6{
+.header-logo-container>h6{
  font-size:15px;
  font-weight:100;
 }
@@ -397,8 +397,9 @@
  margin-top: 30px;
 }
 /*COPYRIGHT-END*/
-
-
+.toggle-nav{
+display:none;
+}
 
 
 
