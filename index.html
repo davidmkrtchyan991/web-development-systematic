@@ -18,16 +18,19 @@
 <body>
 <div class="page-wrapper">
 	<header>
-		<div class="header-innerwrapper">
-			<div class="header-section">							
-				<ul>
+		<div class="header-innerwrapper row">
+			<div class="header-section col-6">
+			<div class="registration-wrapper">
+			<i class="fa fa-bars hamburger" aria-hidden="true"></i>		
+				<ul class="registration">
 					<li><a href="#">Sign Up</a></li>
 					<li><a href="#">Login</a></li>
 					<li><a href="#">RSS Feeds</a></li>
 					<li><a href="#">Archived News</a></li>
-				</ul>							
+				</ul>
+			</div>							
 			</div>
-			<div class="header-section">				
+			<div class="header-section col-6">				
 				<form class="search" action="/action_page.php" method="post" autocomplete="off">
 					<input type="text" name="search" maxlength="60"/>
 					<input type="image" src="images/searchicon.png" alt="Search Icon"/>
@@ -38,13 +41,13 @@
 
 	<div class="systematic">
 		<div class="systematic-innerwrapper">
-			<div class="systematic-section">
+			<div class="systematic-section col-6">
 				<div class="logo">
 					<p class="logo-title">SYSTEMATIC</p>
 					<p class="logo-text">Free PSD Website Template</p>
 				</div>			
 			</div>
-			<div class="systematic-section">
+			<div class="systematic-section col-6">
 				<div class="socials">
 					<a href="https://www.linkedin.com/" target="_blank" title="Find Us On Linkedin" class="ld_icon">
 					<i class="fa fa-linkedin icon"></i></a>
@@ -64,16 +67,19 @@
 	<div class="navigation">
 		<div class="navigation-innerwrapper">
 			<nav>
-				<ul>
-					<li><a href="index.html">Homepage</a></li>
-					<li><a href="#">Style Demo</a></li>
-					<li><a href="#">Full Width</a></li>
-					<li><a href="#">Dropdown</a></li>
-					<li><a href="#">Gallery</a></li>
-					<li><a href="#">Portfolio</a></li>
-					<li><a href="#">Link Text</a></li>
-					<li><a href="#">Long Link Text</a></li>
-				</ul>
+				<div class="menu-wrapper">
+					<i class="fa fa-bars hamburger menu-bar" aria-hidden="true"></i>		
+					<ul>
+						<li><a href="index.html">Homepage</a></li>
+						<li><a href="#">Style Demo</a></li>
+						<li><a href="#">Full Width</a></li>
+						<li><a href="#">Dropdown</a></li>
+						<li><a href="#">Gallery</a></li>
+						<li><a href="#">Portfolio</a></li>
+						<li><a href="#">Link Text</a></li>
+						<li><a href="#">Long Link Text</a></li>
+					</ul>
+				</div>
 			</nav>
 		</div><!-- End of navigation-innerwrapper-->
 	</div><!-- End of navigation-->
